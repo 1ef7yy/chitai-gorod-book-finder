@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" style="--bg:#f3c2a0">
+<rect width="320" height="460" fill="#f3c2a0"/><rect width="7" height="460" fill="#000" opacity=".1"/><rect x="9" width="1" height="460" fill="#fff" opacity=".13"/>
+<rect x="23" y="23" width="276" height="414" fill="none" stroke="#a83e32" stroke-opacity=".24"/>
+<text x="160" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" letter-spacing="2" fill="#a83e32">АЛЕКСАНДР ГРИН</text>
+<text x="160" y="102" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="43" letter-spacing="1" fill="#a83e32">АЛЫЕ</text><text x="160" y="153" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="43" letter-spacing="1" fill="#a83e32">ПАРУСА</text><g style="color:#a83e32"><path d="M163 209v144M157 222L76 319h81zm12 3 75 94h-75z" fill="currentColor"/><path d="M72 330h184l-28 27H98z" fill="currentColor"/><path d="M42 373q20-10 40 0t40 0t40 0t40 0t40 0t40 0M42 386q20-10 40 0t40 0t40 0t40 0t40 0t40 0" fill="none" stroke="currentColor" opacity=".4"/></g>
+<path d="M145 410h30m-15-4v8" stroke="#a83e32" stroke-width="1" opacity=".5"/>
+<text x="160" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" letter-spacing="2" fill="#a83e32" opacity=".7">ИСТОРИИ ВНЕ ВРЕМЕНИ</text>
+</svg>

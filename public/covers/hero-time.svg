@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" style="--bg:#9aaeb5">
+<rect width="320" height="460" fill="#9aaeb5"/><rect width="7" height="460" fill="#000" opacity=".1"/><rect x="9" width="1" height="460" fill="#fff" opacity=".13"/>
+<rect x="23" y="23" width="276" height="414" fill="none" stroke="#273d4d" stroke-opacity=".24"/>
+<text x="160" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" letter-spacing="2" fill="#273d4d">МИХАИЛ ЛЕРМОНТОВ</text>
+<text x="160" y="102" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="43" letter-spacing="1" fill="#273d4d">ГЕРОЙ</text><text x="160" y="153" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="43" letter-spacing="1" fill="#273d4d">НАШЕГО</text><text x="160" y="204" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="43" letter-spacing="1" fill="#273d4d">ВРЕМЕНИ</text><g style="color:#273d4d"><path d="M25 371l91-128 71 102 48-92 60 118z" fill="currentColor" opacity=".25"/><path d="M32 378l84-135 26 43 25-8m-41 85 109-110 58 123" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="217" cy="223" r="24" fill="currentColor" opacity=".7"/></g>
+<path d="M145 410h30m-15-4v8" stroke="#273d4d" stroke-width="1" opacity=".5"/>
+<text x="160" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" letter-spacing="2" fill="#273d4d" opacity=".7">ИСТОРИИ ВНЕ ВРЕМЕНИ</text>
+</svg>

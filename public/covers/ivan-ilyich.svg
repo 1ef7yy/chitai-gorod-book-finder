@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" style="--bg:#d5d1c8">
+<rect width="320" height="460" fill="#d5d1c8"/><rect width="7" height="460" fill="#000" opacity=".1"/><rect x="9" width="1" height="460" fill="#fff" opacity=".13"/>
+<rect x="23" y="23" width="276" height="414" fill="none" stroke="#4a524e" stroke-opacity=".24"/>
+<text x="160" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" letter-spacing="2" fill="#4a524e">ЛЕВ ТОЛСТОЙ</text>
+<text x="160" y="102.0" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="34.4" letter-spacing="1" fill="#4a524e">СМЕРТЬ</text><text x="160" y="144.4" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="34.4" letter-spacing="1" fill="#4a524e">ИВАНА ИЛЬИЧА</text><g style="color:#4a524e"><path d="M90 379V254a70 70 0 0 1 140 0v125zm70-192v192M90 286h140M90 331h140" fill="none" stroke="currentColor" stroke-width="2"/><path d="M83 387h154" stroke="currentColor" stroke-width="3"/><path d="M101 368l48-65m23 65 47-65" stroke="currentColor" stroke-width="1" opacity=".2"/></g>
+<path d="M145 410h30m-15-4v8" stroke="#4a524e" stroke-width="1" opacity=".5"/>
+<text x="160" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" letter-spacing="2" fill="#4a524e" opacity=".7">ИСТОРИИ ВНЕ ВРЕМЕНИ</text>
+</svg>

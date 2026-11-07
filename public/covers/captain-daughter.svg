@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" style="--bg:#b8a17e">
+<rect width="320" height="460" fill="#b8a17e"/><rect width="7" height="460" fill="#000" opacity=".1"/><rect x="9" width="1" height="460" fill="#fff" opacity=".13"/>
+<rect x="23" y="23" width="276" height="414" fill="none" stroke="#314b55" stroke-opacity=".24"/>
+<text x="160" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" letter-spacing="2" fill="#314b55">АЛЕКСАНДР ПУШКИН</text>
+<text x="160" y="102.0" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="37.527272727272724" letter-spacing="1" fill="#314b55">КАПИТАНСКАЯ</text><text x="160" y="147.52727272727273" text-anchor="middle" font-family="Georgia,serif" font-weight="400" font-size="37.527272727272724" letter-spacing="1" fill="#314b55">ДОЧКА</text><g style="color:#314b55"><path d="M163 209v144M157 222L76 319h81zm12 3 75 94h-75z" fill="currentColor"/><path d="M72 330h184l-28 27H98z" fill="currentColor"/><path d="M42 373q20-10 40 0t40 0t40 0t40 0t40 0t40 0M42 386q20-10 40 0t40 0t40 0t40 0t40 0t40 0" fill="none" stroke="currentColor" opacity=".4"/></g>
+<path d="M145 410h30m-15-4v8" stroke="#314b55" stroke-width="1" opacity=".5"/>
+<text x="160" y="428" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" letter-spacing="2" fill="#314b55" opacity=".7">ИСТОРИИ ВНЕ ВРЕМЕНИ</text>
+</svg>

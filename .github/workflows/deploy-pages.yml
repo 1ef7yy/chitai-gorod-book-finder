@@ -49,3 +49,44 @@ jobs:
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+      - name: Verify published site
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          curl --fail --silent --show-error --retry 8 --retry-all-errors --retry-delay 5 "$PAGE_URL" --output /tmp/published-index.html
+          python3 - <<'PY'
+          import os
+          import re
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urljoin
+          from urllib.request import urlopen
+
+          class Assets(HTMLParser):
+              urls = []
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == 'script' and attrs.get('src'):
+                      self.urls.append(attrs['src'])
+                  if tag == 'link' and attrs.get('href'):
+                      self.urls.append(attrs['href'])
+
+          base = os.environ['PAGE_URL']
+          html = Path('/tmp/published-index.html').read_text()
+          assert '<div id="root">' in html, 'Application root is missing'
+          parser = Assets()
+          parser.feed(html)
+          assert any(url.endswith('.js') for url in parser.urls), 'Built JavaScript is missing'
+          urls = [urljoin(base, url) for url in parser.urls]
+          for url in urls:
+              with urlopen(url, timeout=30) as response:
+                  data = response.read()
+                  assert response.status == 200 and data, f'Asset unavailable: {url}'
+                  assert 'text/html' not in response.headers.get_content_type(), f'HTML instead of asset: {url}'
+              print(f'OK {url}')
+              if url.endswith('.css'):
+                  for font in re.findall(r'url\(["\x27]?([^\)"\x27]+)', data.decode()):
+                      if not font.startswith('data:'):
+                          urls.append(urljoin(url, font))
+          print(f'Published page and {len(urls)} assets verified: {base}')
+          PY

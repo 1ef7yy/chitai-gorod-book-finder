@@ -28,11 +28,11 @@ npm run preview
 
 ## GitHub Pages
 
-Репозиторий может называться `chitai-gorod-book-finder`: специальное имя для Pages не требуется. Адрес сайта проекта будет `https://<username>.github.io/chitai-gorod-book-finder/`. Имя `<username>.github.io` нужно только для сайта в корне домена.
+Сайт: [1ef7yy.github.io/chitai-gorod-book-finder](https://1ef7yy.github.io/chitai-gorod-book-finder/).
 
-Для публикации через GitHub Actions выберите `Settings → Pages → Build and deployment → Source → GitHub Actions` и добавьте workflow по [инструкции Vite](https://vite.dev/guide/static-deploy.html#github-pages): Node.js 22.12+, `npm ci`, `npm run build`, публикация папки `dist/`. Исходники React сами по себе не являются готовым сайтом для Pages.
+Публикация настроена через [GitHub Actions](.github/workflows/deploy-pages.yml). После каждого push в `main` workflow устанавливает зависимости, запускает тесты, собирает приложение и публикует `dist/` в GitHub Pages. Его также можно запустить вручную: `Actions → Deploy to GitHub Pages → Run workflow`.
 
-Текущие `base: './'` и `HashRouter` позволяют разместить сборку в подпапке репозитория. Например, ссылка на читалку будет `https://<username>.github.io/chitai-gorod-book-finder/#/read/white-nights`.
+В `Settings → Pages → Build and deployment → Source` должен быть выбран `GitHub Actions`. Текущие `base: './'` и `HashRouter` позволяют разместить сборку в подпапке репозитория. Прямая ссылка на читалку: [Белые ночи](https://1ef7yy.github.io/chitai-gorod-book-finder/#/read/white-nights).
 
 ## Сценарий показа на защите
 
